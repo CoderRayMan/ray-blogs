@@ -36,7 +36,11 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+<<<<<<< HEAD
 /.angular
+=======
+
+>>>>>>> parent of f885bcc (Auto-generated commit [ci skip])
 # System files
 .DS_Store
 Thumbs.db
