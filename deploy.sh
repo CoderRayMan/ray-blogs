@@ -1,0 +1,1 @@
+cp blogApp/dist/blog-app/** ../dist
