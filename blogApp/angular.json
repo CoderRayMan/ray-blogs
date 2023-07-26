@@ -25,16 +25,10 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
-=======
-              "src/styles.css"
-            ],
-            "scripts": []
->>>>>>> parent of f885bcc (Auto-generated commit [ci skip])
           },
           "configurations": {
             "production": {
@@ -94,17 +88,11 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
           ,"node_modules/popper.js/dist/umd/popper.min.js"]
-=======
-              "src/styles.css"
-            ],
-            "scripts": []
->>>>>>> parent of f885bcc (Auto-generated commit [ci skip])
           }
         }
       }
