@@ -1,0 +1,59 @@
+.col-first-half{
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/logo_1.svg');
+}
+/* split-page.component.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .full-height {
+    height: 100%;
+
+  }
+  
+  .col-first-half,
+  .col-second-half {
+    height: 100%;
+    padding: 0;
+  }
+  .col-second-half {
+    display: flex; /* Use flexbox to align toolbar items */
+    flex-direction: column; /* Arrange toolbar items in a column */
+  }
+  
+  .mat-toolbar {
+    background-color: #2196F3; /* Example background color for the toolbar */
+    color: #ffffff; /* Example text color for toolbar items */
+  }
+  
+  .example-icon {
+    color: #ffffff; /* Example color for the menu icon */
+  }
+  
+  /* Optional: Add some styling to the second half's content */
+  .col-second-half > * {
+    padding: 20px; /* Add some padding to the content */
+  }
+  /* card-carousel.component.css */
+/* Style the "Find Out More" button */
+.btn-dark {
+    background-color: #000000; /* Black background color for the button */
+    color: #ffffff; /* White text color for the button */
+    border: none; /* Remove the default button border */
+    border-radius: 10px; /* Add border radius to the button */
+    padding: 15px 30px; /* Add padding to the button */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 1px; /* Add some letter spacing for readability */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* Change the background color on button hover */
+  .btn-dark:hover {
+    background-color: #333333; /* Darker background color on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  

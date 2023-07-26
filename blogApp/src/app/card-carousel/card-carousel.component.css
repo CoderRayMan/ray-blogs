@@ -1,0 +1,45 @@
+/* card-carousel.component.css */
+/* Apply custom styling to the carousel container */
+#cardCarousel {
+    background-color: #f8f9fa; /* Example background color for the carousel */
+  }
+  
+  /* Customize the appearance of the card items */
+  .carousel-item {
+    padding: 20px; /* Add padding to each card item */
+  }
+  
+  /* Adjust spacing between carousel items */
+  .carousel-inner {
+    margin-bottom: 20px; /* Add some space between carousel items */
+  }
+  
+  /* Customize the card appearance */
+  .card {
+    border: 1px solid #ced4da; /* Example border color for the card */
+    border-radius: 10px; /* Add some border radius to soften the card edges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+  
+  /* Customize the card title */
+  .card-title {
+    font-weight: bold;
+    color: #333333; /* Example text color for the card title */
+  }
+  
+  /* Customize the card content text */
+  .card-text {
+    color: #666666; /* Example text color for the card content */
+  }
+  
+  /* Customize the carousel controls */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #333333; /* Example background color for the carousel controls */
+  }
+  
+  .carousel-control-prev-icon::before,
+  .carousel-control-next-icon::before {
+    color: #ffffff; /* Example icon color for the carousel controls */
+  }
+  
